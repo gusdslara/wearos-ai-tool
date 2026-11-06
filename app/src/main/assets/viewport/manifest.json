@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "Wear Viewport",
+  "version": "1.0",
+  "description": "Controla a largura/escala da pagina (zoom real) a partir do app.",
+  "browser_specific_settings": {
+    "gecko": { "id": "viewport@wearports.social" }
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_start",
+      "all_frames": false
+    }
+  ],
+  "permissions": [
+    "nativeMessaging",
+    "nativeMessagingFromContent",
+    "geckoViewAddons",
+    "<all_urls>"
+  ]
+}
