@@ -34,7 +34,6 @@ adb install -r app/build/outputs/apk/debug/app-debug.apk
 
 ---
 
-## 📜 Credits & Architecture
+## 📜 Architecture & Technologies
 
-- Native Wear OS project built with Android SDK, GeckoView web engine, and One UI Watch ergonomics.
-- Developed by **Gustavo Lara** ([@gusdslara](https://github.com/gusdslara)).
+- Native Wear OS application powered by Android SDK, Mozilla GeckoView web engine, and One UI Watch ergonomics.
